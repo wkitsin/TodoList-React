@@ -22,13 +22,11 @@ class AddTodo extends Component {
 
     render() {
         return (
-            <form onSubmit={this.handleSubmit.bind(this)}>
+            <form onSubmit={this.handleSubmit.bind(this)} >
                 <label> Title </label>
                 <input type='text' ref='title' />
-
                 <input type='submit' value='submit' />
-            </ form>
-
+            </ form >
         );
     }
 }
